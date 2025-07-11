@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>My Portfolio - Achievements</title>
+  <link href="https://fonts.googleapis.com/css2?family=Mali&display=swap" rel="stylesheet" />
+  <style>
+    body {
+      font-family: 'Mali', sans-serif;
+      background-color: #fff8f0;
+      color: #1c315e;
+      margin: 0;
+    }
+    section {
+      padding: 30px 50px;
+      max-width: 800px;
+      margin: auto;
+      background-color: #ffffff;
+      border: 2px solid #d0d0ff;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    }
+    h2 {
+      text-align: center;
+      color: #1c315e;
+    }
+    p, li {
+      font-size: 16px;
+      line-height: 1.6;
+      color: #000000
+    }
+    .fade-in {
+      opacity: 0;
+      transform: translateY(30px);
+      transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+    }
+    .fade-in.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    .slider {
+      position: relative;
+      width: 300px;
+      height: 300px;
+      margin: 20px auto;
+      overflow: hidden;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+    .slide {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      position: absolute;
+      top: 0;
+      left: 100%;
+      opacity: 0;
+      transition: all 0.5s ease-in-out;
+    }
+    .slide.active {
+      left: 0;
+      opacity: 1;
+    }
+    .slider-buttons {
+      text-align: center;
+      margin-top: 10px;
+    }
+    .slider-buttons button {
+      font-size: 18px;
+      padding: 6px 12px;
+      background-color: #1c315e;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      margin: 0 10px;
+      cursor: pointer;
+    }
+    footer h3 {
+      margin-bottom: 10px;
+      text-align: center;
+    }
+    footer p {
+      margin: 4px 0;
+      text-align: center;
+    }
+    .profile-img {
+    width: 150px; 
+    height: auto;
+    border-radius: 12px;
+    display: block;
+    margin: 20px auto;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  }
+    header {
+    text-align: center;
+    padding: 40px 20px;
+}
+    header.top-banner {
+      background-color: #d0e8ff;
+      padding: 16px 0;
+      text-align: center;
+      border-bottom: 4px solid #1c315e;
+      font-weight: bold;
+      font-size: 20px;
+    }
+    footer {
+      background-color: #d0e8ff;
+      color: #1c315e;
+      padding: 30px 20px;
+      margin-top: 40px;
+      text-align: center;
+      border-top: 4px solid #1c315e;
+    }
+    .map-container {
+  margin-top: 20px;
+  width: 100%;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+  
+
+  </style>
+</head>
+<body>
+  <header>
+    <h1 class="fade-in">Sucharada Sutakhan</h1>
+    <h2 class="fade-in">สุชาระดา สุตะคาน</h2>
+    <img src="nnn.jpg"  class="profile-img fade-in" />
+  </header>
+
+    <section class="fade-in">
+    <h2>Information</h2>
+    <ul>
+        <li class="fade-in"> ชื่อ : สุชาระดา สุตะคาน</li>
+        <li class="fade-in"> ชื่อเล่น : เนย</li>
+        <li class="fade-in"> วัน/เดือน/ปีเกิด : 1 พฤศจิกายน พ.ศ.2546</li>
+        <li class="fade-in"> อายุ : 21</li>
+        <li class="fade-in"> สัญชาติ : ไทย</li>
+        <li class="fade-in"> ศาสนา : พุทธ</li>
+    </ul>
+</section>
+    <section class="fade-in">
+    <h2>Education</h2>
+    <ul>
+        <p><strong>โรงเรียนเบญจมราชูทิศ จังหวัดจันทบุรี</strong> </p>
+        <li> จบปีการศึกษา 2564 | เกรดเฉลี่ย 3.54</li>
+        <p><strong> มหาวิทยาลัยเทคโนโลยีสุรนารี </strong></p>
+        <li> จบปีการศึกษา 2567 | เกรดเฉลี่ย 2.80</li>
+
+    </ul>
+</section>
+
+    <section class="fade-in">
+    <h2>About me</h2>
+    <ul>
+        <li>ดิฉันมีความสามารถในด้านวิศวกรรมเมคาทรอนิกส์และการเขียนโปรแกรมคอมพิวเตอร์ ในปี 2021
+            ได้เคยเข้าร่วมการแข่งขันออกแบบอุปกรณ์ตรวจจับความปลอดภัยซึ่งช่วยเสริมทักษะด้านการแก้ปัญหาเชิงปฏิบัติและการบูรณาการระบบ
+            ปัจจุบันฉันกำลังมองหาโอกาสในการทำงานด้านเมคาทรอนิกส์ วิศวกรรมเครื่องกล
+            อิเล็กทรอนิกส์ และวิศวกรรมไฟฟ้า </li>
+        </ul>
+  </section>
+
+  <section class="fade-in">
+    <h2>Experiences</h2>
+    <ul>
+        <p><strong>🗓️ 2019 - 2021 โรงเรียนเบญจมราชูทิศ จันทบุรี</strong></p>
+            <li>พัฒนาโปรโตไทป์ “ระบบจองห้องพักและรีสอร์ท” โดยใช้บอร์ด ESP32 และ Arduino 
+        และนำเสนอผลงานในงานแข่งขัน STEM ของโรงเรียนเบญจมราชูทิศ จังหวัดจันทบุรี</li>
+        <p><strong>🗓️ 2022 - 2024 มหาวิทยาลัยเทคโนโลยีสุรนารี </strong></p>
+            <li>ออกแบบและประกอบเครื่องนับจำนวนคอยล์ โดยใช้เครื่องจักรอุตสาหกรรม 
+            ใช้วัสดุอลูมิเนียมและเหล็กในการสร้างอุปกรณ์ต้นแบบขนาดเล็ก</li>
+        <p><strong>🗓️ สิงหาคม 2024 - เมษายน 2025 Analog Devices, Inc. นักศึกษาฝึกงาน</strong></p>
+        <li>ออกแบบเครื่องมือแบบโมดูลาร์เพื่อลดเวลาในการบำรุงรักษาชิ้นส่วนของแขนกลจับวัตถุ 
+            (gripper module) โดยบูรณาการระบบอัตโนมัติเพื่อให้สามารถหมุนอุปกรณ์เพื่อ
+            ทำความสะอาดได้ง่ายขึ้น 
+            และรองรับการจัดการชิ้นส่วนรวมถึงการสอบเทียบอุปกรณ์ </li>
+
+    </ul>
+  </section>
+
+
+  <section class="fade-in">
+  <h2>My Achievements</h2>
+  <p><strong>P&P module replacement time reduction by special tool</strong></p>
+
+  <div class="slider">
+    <img src="1.jpg" class="slide" alt="ภาพ 1" />
+    <img src="2.jpg" class="slide" alt="ภาพ 2" />
+    <img src="3.jpg" class="slide" alt="ภาพ 3" />
+    <img src="4.jpg" class="slide" alt="ภาพ 4" />
+    <img src="5.jpg" class="slide" alt="ภาพ 5" />
+    <img src="6.jpg" class="slide" alt="ภาพ 6" />
+  </div>
+  <div class="slider-buttons">
+    <button onclick="prevSlide()">⬅️</button>
+    <button onclick="nextSlide()">➡️</button>
+  </div>
+</section>
+<section class="fade-in">
+  <p>Poster Presentation</p>
+  <iframe src="poster.pdf" width="100%" height="600px" style="border: none;"></iframe>
+</section>
+<section class="fade-in">
+<p><strong>ระบบฟาร์มอัจฉริยะตรวจสุขภาพพืชด้วย AI (Smart Farm Project)</strong></p>
+<div class="slider">
+    <img src="/port_me/re1.png" class="slide" alt="ภาพ 11" />
+    <img src="/port_me/re2.png" class="slide" alt="ภาพ 22" />
+    <img src="/port_me/re3.png" class="slide" alt="ภาพ 33" />
+  </div>
+  <div class="slider-buttons">
+    <button onclick="prevSlide()">⬅️</button>
+    <button onclick="nextSlide()">➡️</button>
+  </div>
+</section>
+<section class="fade-in">
+  <p>Poster Presentation</p>
+  <iframe src="smart farm.pdf" width="100%" height="600px" style="border: none;"></iframe>
+</section>
+<footer>
+  <h3>Contact</h3>
+  <p><strong>ชื่อ:</strong> สุชาระดา สุตะคาน (Sucharada Sutakhan)</p>
+  <p><strong> Email:</strong> sucharadasutakhan@gmail.com</p>
+  <p><strong> Phone:</strong> 065-9259538</p>
+  <p><strong> Address:</strong> บ้านเลขที่ 96 หมู่ 11 ต.ทุ่งขนาน อ.สอยดาว จ.จันทบุรี 22180</p>
+   <div class="map-container">
+    <iframe class="map" 
+  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3884.5076652774674!2d102.28210995787823!3d13.193412624097956!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3104b25ebf4d7d0d%3A0x36c514a185802fbd!2sThung%20Khanan%2C%20Soi%20Dao%20District%2C%20Chanthaburi%2022180!5e0!3m2!1sen!2sth!4v1752257989048!5m2!1sen!2sth" 
+  width="100%" 
+  height="300" 
+  style="border: 0; border-radius: 12px;" 
+  allowfullscreen="" 
+  loading="lazy" 
+  referrerpolicy="no-referrer-when-downgrade">
+</iframe>
+
+  </div>
+</footer>
+
+
+
+<script>
+  // Fade-in animation
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add("visible");
+      }
+    });
+  });
+  document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
+
+  // Image slider
+  const slides = document.querySelectorAll('.slide');
+  let currentSlide = 0;
+
+  function showSlide(index) {
+    slides.forEach((slide, i) => {
+      slide.classList.remove('active');
+      if (i === index) slide.classList.add('active');
+    });
+  }
+
+  function nextSlide() {
+    currentSlide = (currentSlide + 1) % slides.length;
+    showSlide(currentSlide);
+  }
+
+  function prevSlide() {
+    currentSlide = (currentSlide - 1 + slides.length) % slides.length;
+    showSlide(currentSlide);
+  }
+
+  showSlide(currentSlide); // Show first image
+</script>
+
+
+</body>
+</html>
